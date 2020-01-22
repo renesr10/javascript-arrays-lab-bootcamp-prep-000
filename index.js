@@ -33,4 +33,12 @@ function removeFirstKitten(name) {
   var newArray = kittens.slice(name)
   newArray.shift(name)
   return newArray
+
+var newArray = kittens.concat(name)
+return newArray;
+}
+function prependKitten(name) {
+var newArray = kittens.unshift(name)
+kittens.concat(name)
+return newArray
 }
