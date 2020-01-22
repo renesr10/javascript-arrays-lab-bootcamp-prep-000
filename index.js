@@ -20,7 +20,6 @@ function appendKitten(name) {
   return newArray
 }
 function prependKitten(name) {
-  
   return [name, ...kittens];
 }
 function removeLastKitten(name) {
